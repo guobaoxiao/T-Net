@@ -169,9 +169,6 @@ class sub_T(nn.Module):
         channels = net_channels
         self.layer_num = depth
         self.conv1 = nn.Conv2d(input_channel, channels, kernel_size=1)
-        #self.in1 = nn.InstanceNorm2d(channels, eps=1e-5)
-        #self.bn1 = nn.BatchNorm2d(channels)
-        #self.Re = nn.ReLU(inplace=True)
         l2_nums = clusters
         self.l1_1 = []
         for _ in range(self.layer_num//2):
