@@ -7,7 +7,7 @@ import torch.utils.data
 import sys
 from data import collate_fn, CorrespondencesDataset
 from tnet import T_Net as Model  # Tent
-from tnet_plus import T_Net_plus as Model  # Tent++
+#from tnet_plus import T_Net_plus as Model  # Tent++
 from train import train
 from test import test
 
