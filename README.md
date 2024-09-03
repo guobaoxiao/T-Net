@@ -30,8 +30,8 @@ If you find the NCMNet code useful, please consider citing:
 }
 ```
 
-# Data Preparation and Acknowledgement
-This data preparation code of YFCC100M and SUN3D can be found from [[OANet](https://github.com/zjhthu/OANet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite the paper:
+# Data Preparation, Trainng, and Testing
+This data preparation code of main datasets, trainng, and testing can be found from [[OANet](https://github.com/zjhthu/OANet)]. If you use the part of code related to data generation, testing, or evaluation, you should cite the paper:
 ```bibtex
 @inproceedings{zhang2019oanet,
   title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
